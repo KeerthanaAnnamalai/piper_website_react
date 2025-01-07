@@ -10,10 +10,10 @@ const ContactInfo = () => {
         <div>
           <h3 className="text-base font-semibold text-gray-900">Phone</h3>
           <a
-            href="tel:+919884680906"
+            href="tel:+919943622231"
             className="text-sm text-gray-600 hover:text-green-600 transition-colors"
           >
-            +91 98846 80906
+            +91 99436 22231
           </a>
         </div>
       </div>
@@ -25,10 +25,10 @@ const ContactInfo = () => {
         <div>
           <h3 className="text-base font-semibold text-gray-900">Email</h3>
           <a
-            href="mailto:info@pipercadd.com"
+            href="mailto:pipercadd@gmail.com"
             className="text-sm text-gray-600 hover:text-green-600 transition-colors"
           >
-            info@pipercadd.com
+            pipercadd@gmail.com
           </a>
         </div>
       </div>
@@ -40,11 +40,11 @@ const ContactInfo = () => {
         <div>
           <h3 className="text-base font-semibold text-gray-900">Address</h3>
           <p className="text-sm text-gray-600">
-            No.4/5, 1st Floor, Govindan Street,
+            15th St, 1st floor,
             <br />
-            Ayyavoo Colony, Aminjikarai,
+            Tansi Nagar, Velachery,
             <br />
-            Chennai - 600029.
+            Chennai - 600042.
           </p>
         </div>
       </div>
