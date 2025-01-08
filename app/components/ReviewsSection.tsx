@@ -12,38 +12,38 @@ import Image from "next/image";
 const reviews = [
   {
     text: "I recently completed the SP3D course at Piper CADD Institute, and it was a great experience. The training was clear and hands-on, with expert instructors who made complex topics easy to understand. Their placement support was excellent, helping me secure a job in a top company.",
-    name: "Mahesh Kumar",
-    role: "SP3D Graduate",
+    name: "Jerish Joe",
+    role: "Piping Designer",
     rating: 5,
-    image: "https://images.pexels.com/photos/3785104/pexels-photo-3785104.jpeg",
+    image: "/assets/img/testimonial/2.jpeg",
   },
   {
     text: "Their hands-on training in AVEVA E3D and AutoCAD Plant 3D, led by expert instructors, made learning easy and effective. The placement support was outstanding - I landed a job quickly after completing the course.",
     name: "Arjun C",
     role: "AVEVA E3D Graduate",
     rating: 5,
-    image: "https://images.pexels.com/photos/3778876/pexels-photo-3778876.jpeg",
+    image: "/assets/img/testimonial/3.jpeg",
   },
   {
     text: "The comprehensive curriculum and expert instructors made my learning experience invaluable. The practical approach to teaching helped me understand complex concepts easily. Highly recommend for anyone seeking to advance their skills!",
     name: "DOMINIC JERIN",
     role: "Revit Architecture Graduate",
     rating: 4.5,
-    image: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg",
+    image: "/assets/img/testimonial/4.jpeg",
   },
   {
     text: "Thank you, PiperCADD Institute, for offering exceptional training and providing excellent placement opportunities. The comprehensive curriculum and expert instructors made my learning experience invaluable.",
     name: "Albin Bright",
     role: "SP3D Graduate",
     rating: 4.5,
-    image: "https://images.pexels.com/photos/3785074/pexels-photo-3785074.jpeg",
+    image: "/assets/img/testimonial/5.jpeg",
   },
   {
     text: "PiperCADD CAD Training Institute exceeded my expectations! They provide the best training on AVEVA E3D, with highly skilled instructors who offer in-depth knowledge and hands-on practice. The course is well-structured and practical.",
     name: "JIVIN R",
     role: "AVEVA E3D Graduate",
     rating: 4.5,
-    image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg",
+    image: "/assets/img/testimonial/6.jpeg",
   },
 ];
 
