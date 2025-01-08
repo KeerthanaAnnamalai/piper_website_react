@@ -7,19 +7,19 @@ const courseData = [
     title: "AutoCAD Plant 3D",
     description:
       "Complete plant design and modeling solution for process plants",
-    href: "/courses/mechanical/autocad-plant-3d",
+    href: "/courses/autocad-plant-3d",
   },
   {
     icon: <FaBuilding className="w-12 h-12" />,
     title: "Tekla Structures",
     description: "Advanced structural BIM software for construction modeling",
-    href: "/courses/civil/tekla-structures",
+    href: "/courses/tekla-structures",
   },
   {
     icon: <FaCogs className="w-12 h-12" />,
     title: "CADWorx",
     description: "Plant design suite for process plant industries",
-    href: "/courses/mechanical/cadworx",
+    href: "/courses/cadworx",
   },
 ];
 
