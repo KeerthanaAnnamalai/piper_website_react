@@ -10,10 +10,10 @@ const ContactInfo = () => {
         <div>
           <h3 className="text-base font-semibold text-gray-900">Phone</h3>
           <a
-            href="tel:+919943622231"
+            href="tel:+919514600042"
             className="text-sm text-gray-600 hover:text-green-600 transition-colors"
           >
-            +91 99436 22231
+            +91 9514600042
           </a>
         </div>
       </div>
@@ -40,7 +40,7 @@ const ContactInfo = () => {
         <div>
           <h3 className="text-base font-semibold text-gray-900">Address</h3>
           <p className="text-sm text-gray-600">
-            15th St, 1st floor,
+            15th St, 1st floor,KUMKUT Building,
             <br />
             Tansi Nagar, Velachery,
             <br />
