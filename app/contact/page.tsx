@@ -48,7 +48,7 @@ export default function ContactPage() {
             {/* Map */}
             <div className="bg-white p-6 rounded-xl shadow-sm">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.4410623774!2d80.21770797495818!3d13.074743987248224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267e4f47cd8f9%3A0x8f5e7acd0da0dab!2sPiper%20CADD!5e0!3m2!1sen!2sin!4v1704390138975!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d256.33059987768274!2d80.22454414615324!3d12.977713707939282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525dfc08ff3947%3A0xa0556b98c54b34c6!2sPiperCADD!5e0!3m2!1sen!2sin!4v1736342055625!5m2!1sen!2sin"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
