@@ -29,12 +29,7 @@ const Footer = () => {
                 GET CONNECTED
               </h3>
               <ul className="space-y-3 text-center md:text-left">
-                {[
-                  { name: "Contact", href: "/contact" },
-                  { name: "Dashboard", href: "/dashboard" },
-                  { name: "Placements", href: "/placements" },
-                  { name: "Student Portal", href: "/portal" },
-                ].map((link) => (
+                {[{ name: "Contact", href: "/contact" }].map((link) => (
                   <li key={link.name}>
                     <Link
                       href={link.href}
@@ -55,9 +50,9 @@ const Footer = () => {
               <ul className="space-y-3 text-center md:text-left">
                 {[
                   { name: "About Us", href: "/about" },
-                  { name: "Blog", href: "/blog" },
-                  { name: "Support", href: "/support" },
-                  { name: "Documentation", href: "/docs" },
+                  { name: "Courses", href: "/courses" },
+                  { name: "Home", href: "/home" },
+                  { name: "Resources", href: "/resources" },
                 ].map((link) => (
                   <li key={link.name}>
                     <Link
@@ -120,6 +115,47 @@ const Footer = () => {
                     className="text-gray-400 hover:text-white transition-colors duration-300 text-sm md:text-base"
                   >
                     Instagram
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://x.com/PiperCadd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm md:text-base"
+                  >
+                    X
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://in.pinterest.com/PiperCADD/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm md:text-base"
+                  >
+                    Pinterest
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/piper-cadd/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm md:text-base"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://account.buffer.com/channels"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm md:text-base"
+                  >
+                    Buffer
                   </a>
                 </li>
               </ul>
