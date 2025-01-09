@@ -51,7 +51,7 @@ const Footer = () => {
                 {[
                   { name: "About Us", href: "/about" },
                   { name: "Courses", href: "/courses" },
-                  { name: "Home", href: "/home" },
+                  { name: "Home", href: "/" },
                   { name: "Resources", href: "/resources" },
                 ].map((link) => (
                   <li key={link.name}>
@@ -73,18 +73,27 @@ const Footer = () => {
               </h3>
               <ul className="space-y-3 text-center md:text-left">
                 {[
-                  "SP3D Training",
-                  "PDMS Training",
-                  "AVEVA E3D",
-                  "AutoCAD Plant 3D",
-                  "Revit Architecture",
-                ].map((course) => (
-                  <li key={course}>
+                  {
+                    name: "AutoCAD Plant 3D",
+                    href: "/courses/autocad-plant-3d-course-in-chennai",
+                  },
+                  { name: "SP3D", href: "/courses/sp3d-course-in-chennai" },
+                  { name: "AVEVA E3D", href: "/courses/e3d-course-in-chennai" },
+                  {
+                    name: "Tekla",
+                    href: "/courses/tekla-structure-course-in-chennai",
+                  },
+                  {
+                    name: "Revit Architecture",
+                    href: "/courses/revit-architecture-course-in-chennai",
+                  },
+                ].map((link) => (
+                  <li key={link.name}>
                     <Link
-                      href="/courses"
+                      href={link.href}
                       className="text-gray-400 hover:text-white transition-colors duration-300 text-sm md:text-base"
                     >
-                      {course}
+                      {link.name}
                     </Link>
                   </li>
                 ))}
@@ -147,17 +156,6 @@ const Footer = () => {
                     LinkedIn
                   </a>
                 </li>
-
-                <li>
-                  <a
-                    href="https://account.buffer.com/channels"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-white transition-colors duration-300 text-sm md:text-base"
-                  >
-                    Buffer
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
@@ -169,13 +167,10 @@ const Footer = () => {
             ©{new Date().getFullYear()} PiperCaDD. All rights reserved.
           </div>
           <div className="flex gap-6 text-sm text-gray-400 order-1 md:order-2">
-            <Link href="/terms" className="hover:text-white transition-colors">
+            <Link href="/" className="hover:text-white transition-colors">
               Terms
             </Link>
-            <Link
-              href="/privacy policy"
-              className="hover:text-white transition-colors"
-            >
+            <Link href="/" className="hover:text-white transition-colors">
               Privacy
             </Link>
           </div>
